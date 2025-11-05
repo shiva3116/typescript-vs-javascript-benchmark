@@ -1,1 +1,65 @@
-{"version":3,"file":"algorithms.js","sourceRoot":"","sources":["../algorithms.ts"],"names":[],"mappings":";AAAA,gDAAgD;;AAkE5C,sDAAqB;AACrB,oDAAoB;AACpB,0DAAuB;AAlE3B,oCAAoC;AACpC,SAAS,qBAAqB;IAC1B,wBAAwB;IACxB,SAAS,SAAS,CAAC,GAAa;QAC5B,IAAI,GAAG,CAAC,MAAM,IAAI,CAAC;YAAE,OAAO,GAAG,CAAC;QAChC,MAAM,KAAK,GAAW,GAAG,CAAC,IAAI,CAAC,KAAK,CAAC,GAAG,CAAC,MAAM,GAAG,CAAC,CAAC,CAAC,CAAC;QACtD,MAAM,IAAI,GAAa,GAAG,CAAC,MAAM,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,GAAG,KAAK,CAAC,CAAC;QAClD,MAAM,MAAM,GAAa,GAAG,CAAC,MAAM,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,KAAK,KAAK,CAAC,CAAC;QACtD,MAAM,KAAK,GAAa,GAAG,CAAC,MAAM,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,GAAG,KAAK,CAAC,CAAC;QACnD,OAAO,CAAC,GAAG,SAAS,CAAC,IAAI,CAAC,EAAE,GAAG,MAAM,EAAE,GAAG,SAAS,CAAC,KAAK,CAAC,CAAC,CAAC;IAChE,CAAC;IAED,MAAM,SAAS,GAAa,KAAK,CAAC,IAAI,CAAC,EAAC,MAAM,EAAE,KAAK,EAAC,EAAE,GAAG,EAAE,CAAC,IAAI,CAAC,KAAK,CAAC,IAAI,CAAC,MAAM,EAAE,GAAG,KAAK,CAAC,CAAC,CAAC;IACjG,MAAM,WAAW,GAAa,SAAS,CAAC,CAAC,GAAG,SAAS,CAAC,CAAC,CAAC;IAExD,OAAO,WAAW,CAAC,MAAM,CAAC;AAC9B,CAAC;AAED,uBAAuB;AACvB,SAAS,oBAAoB;IACzB,MAAM,WAAW,GAAa,KAAK,CAAC,IAAI,CAAC,EAAC,MAAM,EAAE,MAAM,EAAC,EAAE,CAAC,CAAC,EAAE,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC;IAExE,SAAS,YAAY,CAAC,GAAa,EAAE,MAAc;QAC/C,IAAI,IAAI,GAAW,CAAC,CAAC;QACrB,IAAI,KAAK,GAAW,GAAG,CAAC,MAAM,GAAG,CAAC,CAAC;QAEnC,OAAO,IAAI,IAAI,KAAK,EAAE,CAAC;YACnB,MAAM,GAAG,GAAW,IAAI,CAAC,KAAK,CAAC,CAAC,IAAI,GAAG,KAAK,CAAC,GAAG,CAAC,CAAC,CAAC;YACnD,IAAI,GAAG,CAAC,GAAG,CAAC,KAAK,MAAM;gBAAE,OAAO,GAAG,CAAC;iBAC/B,IAAI,GAAG,CAAC,GAAG,CAAC,GAAG,MAAM;gBAAE,IAAI,GAAG,GAAG,GAAG,CAAC,CAAC;;gBACtC,KAAK,GAAG,GAAG,GAAG,CAAC,CAAC;QACzB,CAAC;QACD,OAAO,CAAC,CAAC,CAAC;IACd,CAAC;IAED,IAAI,UAAU,GAAW,CAAC,CAAC;IAC3B,KAAI,IAAI,CAAC,GAAW,CAAC,EAAE,CAAC,GAAG,KAAK,EAAE,CAAC,EAAE,EAAE,CAAC;QACpC,MAAM,MAAM,GAAW,IAAI,CAAC,KAAK,CAAC,IAAI,CAAC,MAAM,EAAE,GAAG,MAAM,CAAC,CAAC;QAC1D,IAAG,YAAY,CAAC,WAAW,EAAE,MAAM,CAAC,KAAK,CAAC,CAAC;YAAE,UAAU,EAAE,CAAC;IAC9D,CAAC;IAED,OAAO,UAAU,CAAC;AACtB,CAAC;AAED,0BAA0B;AAC1B,SAAS,uBAAuB;IAC5B,MAAM,OAAO,GAA8B,EAAE,CAAC;IAE9C,SAAS,SAAS,CAAC,CAAS;QACxB,IAAI,CAAC,IAAI,OAAO;YAAE,OAAO,OAAO,CAAC,CAAC,CAAC,CAAC;QACpC,IAAI,CAAC,IAAI,CAAC;YAAE,OAAO,CAAC,CAAC;QACrB,OAAO,CAAC,CAAC,CAAC,GAAG,SAAS,CAAC,CAAC,GAAG,CAAC,CAAC,GAAG,SAAS,CAAC,CAAC,GAAG,CAAC,CAAC,CAAC;QACjD,OAAO,OAAO,CAAC,CAAC,CAAC,CAAC;IACtB,CAAC;IAED,IAAI,MAAM,GAAW,CAAC,CAAC;IACvB,KAAI,IAAI,CAAC,GAAW,CAAC,EAAE,CAAC,IAAI,EAAE,EAAE,CAAC,EAAE,EAAE,CAAC;QAClC,MAAM,IAAI,SAAS,CAAC,CAAC,CAAC,CAAC;IAC3B,CAAC;IAED,OAAO,MAAM,CAAC;AAClB,CAAC"}
+"use strict";
+// COMPREHENSIVE ALGORITHMS - TYPESCRIPT VERSION
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.sortingAlgorithmsTest = sortingAlgorithmsTest;
+exports.searchAlgorithmsTest = searchAlgorithmsTest;
+exports.recursiveAlgorithmsTest = recursiveAlgorithmsTest;
+// 1. Sorting Algorithms Performance
+function sortingAlgorithmsTest() {
+    // Quick Sort with types
+    function quickSort(arr) {
+        if (arr.length <= 1)
+            return arr;
+        const pivot = arr[Math.floor(arr.length / 2)];
+        const left = arr.filter(x => x < pivot);
+        const middle = arr.filter(x => x === pivot);
+        const right = arr.filter(x => x > pivot);
+        return [...quickSort(left), ...middle, ...quickSort(right)];
+    }
+    const testArray = Array.from({ length: 10000 }, () => Math.floor(Math.random() * 10000));
+    const quickSorted = quickSort([...testArray]);
+    return quickSorted.length;
+}
+// 2. Search Algorithms
+function searchAlgorithmsTest() {
+    const sortedArray = Array.from({ length: 100000 }, (_, i) => i);
+    function binarySearch(arr, target) {
+        let left = 0;
+        let right = arr.length - 1;
+        while (left <= right) {
+            const mid = Math.floor((left + right) / 2);
+            if (arr[mid] === target)
+                return mid;
+            else if (arr[mid] < target)
+                left = mid + 1;
+            else
+                right = mid - 1;
+        }
+        return -1;
+    }
+    let foundCount = 0;
+    for (let i = 0; i < 10000; i++) {
+        const target = Math.floor(Math.random() * 100000);
+        if (binarySearch(sortedArray, target) !== -1)
+            foundCount++;
+    }
+    return foundCount;
+}
+// 3. Recursive Algorithms
+function recursiveAlgorithmsTest() {
+    const fibMemo = {};
+    function fibonacci(n) {
+        if (n in fibMemo)
+            return fibMemo[n];
+        if (n <= 1)
+            return n;
+        fibMemo[n] = fibonacci(n - 1) + fibonacci(n - 2);
+        return fibMemo[n];
+    }
+    let result = 0;
+    for (let i = 1; i <= 30; i++) {
+        result += fibonacci(i);
+    }
+    return result;
+}
+//# sourceMappingURL=algorithms.js.map

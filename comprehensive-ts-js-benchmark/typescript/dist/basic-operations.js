@@ -1,1 +1,123 @@
-{"version":3,"file":"basic-operations.js","sourceRoot":"","sources":["../basic-operations.ts"],"names":[],"mappings":"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"}
+"use strict";
+// COMPREHENSIVE BASIC OPERATIONS - TYPESCRIPT VERSION
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.arrayOperationsSimple = arrayOperationsSimple;
+exports.arrayOperationsComplex = arrayOperationsComplex;
+exports.objectCreationSimple = objectCreationSimple;
+exports.objectCreationComplex = objectCreationComplex;
+exports.mathOperationsBasic = mathOperationsBasic;
+exports.stringProcessingAdvanced = stringProcessingAdvanced;
+exports.functionCallTests = functionCallTests;
+// 1. Simple Array Operations
+function arrayOperationsSimple() {
+    const arr = Array.from({ length: 100000 }, (_, i) => i);
+    const filtered = arr.filter(x => x % 2 === 0);
+    const mapped = filtered.map(x => x * 2);
+    return mapped.reduce((sum, val) => sum + val, 0);
+}
+// 2. Complex Array Operations  
+function arrayOperationsComplex() {
+    const arr = Array.from({ length: 50000 }, (_, i) => ({
+        id: i,
+        value: Math.random() * 1000,
+        category: ['A', 'B', 'C', 'D'][i % 4],
+        metadata: {
+            created: Date.now(),
+            active: i % 3 === 0,
+            score: Math.random() * 100
+        }
+    }));
+    return arr
+        .filter((item) => item.metadata.active && item.value > 500)
+        .map((item) => ({
+        ...item,
+        computed: item.value * item.metadata.score,
+        grade: item.value > 800 ? 'Premium' : 'Standard'
+    }))
+        .sort((a, b) => b.computed - a.computed)
+        .slice(0, 1000)
+        .reduce((acc, item) => acc + item.computed, 0);
+}
+// 3. Object Creation - Simple
+function objectCreationSimple() {
+    const objects = [];
+    for (let i = 0; i < 100000; i++) {
+        objects.push({
+            id: i,
+            name: `Object${i}`,
+            value: Math.random(),
+            created: new Date()
+        });
+    }
+    return objects.length;
+}
+// 4. Object Creation - Complex Nested
+function objectCreationComplex() {
+    const objects = [];
+    for (let i = 0; i < 25000; i++) {
+        objects.push({
+            id: i,
+            profile: {
+                name: `User${i}`,
+                email: `user${i}@example.com`,
+                settings: {
+                    theme: 'dark',
+                    notifications: {
+                        email: true,
+                        push: i % 2 === 0,
+                        sms: false
+                    },
+                    privacy: {
+                        level: ['low', 'medium', 'high'][i % 3],
+                        shareData: i % 4 === 0
+                    }
+                }
+            },
+            data: Array.from({ length: 10 }, (_, j) => ({
+                index: j,
+                value: Math.random() * 100,
+                processed: j % 2 === 0,
+                tags: ['tag1', 'tag2', 'tag3'].slice(0, j % 3 + 1)
+            }))
+        });
+    }
+    return objects.length;
+}
+// 5. Mathematical Operations
+function mathOperationsBasic() {
+    let result = 0;
+    for (let i = 1; i <= 500000; i++) {
+        result += Math.sqrt(i) * Math.sin(i) + Math.cos(i);
+    }
+    return result;
+}
+// 6. String Processing
+function stringProcessingAdvanced() {
+    const texts = Array.from({ length: 10000 }, (_, i) => `Lorem ipsum dolor sit amet ${i} consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ${i * 2}.`);
+    let processedCount = 0;
+    for (const text of texts) {
+        const processed = text
+            .toLowerCase()
+            .replace(/\d+/g, 'NUM')
+            .split(' ')
+            .filter((word) => word.length > 3)
+            .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+            .join('-');
+        if (processed.includes('NUM') && processed.length > 50) {
+            processedCount++;
+        }
+    }
+    return processedCount;
+}
+// 7. Function Call Performance
+function functionCallTests() {
+    function calculate(a, b, c) {
+        return (a * b) + (c / 2) - Math.sqrt(a + b + c);
+    }
+    let result = 0;
+    for (let i = 1; i <= 1000000; i++) {
+        result += calculate(i, i + 1, i * 2);
+    }
+    return result;
+}
+//# sourceMappingURL=basic-operations.js.map

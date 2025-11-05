@@ -1,1 +1,101 @@
-{"version":3,"file":"benchmark-runner.js","sourceRoot":"","sources":["../benchmark-runner.ts"],"names":[],"mappings":"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"}
+"use strict";
+// COMPREHENSIVE ALGORITHMS - TYPESCRIPT VERSION
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.sortingAlgorithmsTest = sortingAlgorithmsTest;
+exports.searchAlgorithmsTest = searchAlgorithmsTest;
+exports.recursiveAlgorithmsTest = recursiveAlgorithmsTest;
+// 1. Sorting Algorithms Performance
+function sortingAlgorithmsTest() {
+    // Quick Sort with types
+    function quickSort(arr) {
+        if (arr.length <= 1)
+            return arr;
+        const pivot = arr[Math.floor(arr.length / 2)];
+        const left = arr.filter(x => x < pivot);
+        const middle = arr.filter(x => x === pivot);
+        const right = arr.filter(x => x > pivot);
+        return [...quickSort(left), ...middle, ...quickSort(right)];
+    }
+    // Merge Sort with types
+    function mergeSort(arr) {
+        if (arr.length <= 1)
+            return arr;
+        const mid = Math.floor(arr.length / 2);
+        return merge(mergeSort(arr.slice(0, mid)), mergeSort(arr.slice(mid)));
+    }
+    function merge(left, right) {
+        const result = [];
+        let i = 0;
+        let j = 0;
+        while (i < left.length && j < right.length) {
+            result.push(left[i] <= right[j] ? left[i++] : right[j++]);
+        }
+        return result.concat(left.slice(i), right.slice(j));
+    }
+    const testArray = Array.from({ length: 10000 }, () => Math.floor(Math.random() * 10000));
+    const quickSorted = quickSort([...testArray]);
+    const mergeSorted = mergeSort([...testArray]);
+    return quickSorted.length + mergeSorted.length;
+}
+// 2. Search Algorithms
+function searchAlgorithmsTest() {
+    const sortedArray = Array.from({ length: 100000 }, (_, i) => i);
+    function binarySearch(arr, target) {
+        let left = 0;
+        let right = arr.length - 1;
+        while (left <= right) {
+            const mid = Math.floor((left + right) / 2);
+            if (arr[mid] === target)
+                return mid;
+            else if (arr[mid] < target)
+                left = mid + 1;
+            else
+                right = mid - 1;
+        }
+        return -1;
+    }
+    function linearSearch(arr, target) {
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === target)
+                return i;
+        }
+        return -1;
+    }
+    let foundCount = 0;
+    for (let i = 0; i < 10000; i++) {
+        const target = Math.floor(Math.random() * 100000);
+        if (binarySearch(sortedArray, target) !== -1)
+            foundCount++;
+        if (linearSearch(sortedArray.slice(0, 1000), target) !== -1)
+            foundCount++;
+    }
+    return foundCount;
+}
+// 3. Recursive Algorithms
+function recursiveAlgorithmsTest() {
+    // Fibonacci with memoization and types
+    const fibMemo = {};
+    function fibonacci(n) {
+        if (n in fibMemo)
+            return fibMemo[n];
+        if (n <= 1)
+            return n;
+        fibMemo[n] = fibonacci(n - 1) + fibonacci(n - 2);
+        return fibMemo[n];
+    }
+    // Factorial with types
+    function factorial(n) {
+        if (n <= 1)
+            return 1;
+        return n * factorial(n - 1);
+    }
+    let result = 0;
+    for (let i = 1; i <= 35; i++) {
+        result += fibonacci(i);
+    }
+    for (let i = 1; i <= 15; i++) {
+        result += factorial(i);
+    }
+    return result;
+}
+//# sourceMappingURL=benchmark-runner.js.map
