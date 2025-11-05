@@ -1,0 +1,116 @@
+{
+  "language": "TypeScript",
+  "timestamp": "2025-11-05T14:42:00.000Z",
+  "results": [
+    {
+      "testName": "Array Operations Simple",
+      "times": [
+        43.462,
+        42.794,
+        44.641
+      ],
+      "average": 43.632,
+      "min": 42.794,
+      "max": 44.641
+    },
+    {
+      "testName": "Array Operations Complex",
+      "times": [
+        157.447,
+        156.859,
+        159.307
+      ],
+      "average": 157.871,
+      "min": 156.859,
+      "max": 159.307
+    },
+    {
+      "testName": "Object Creation Simple",
+      "times": [
+        89.666,
+        86.843,
+        87.44
+      ],
+      "average": 87.983,
+      "min": 86.843,
+      "max": 89.666
+    },
+    {
+      "testName": "Object Creation Complex",
+      "times": [
+        234.253,
+        230.509,
+        232.036
+      ],
+      "average": 232.266,
+      "min": 230.509,
+      "max": 234.253
+    },
+    {
+      "testName": "Math Operations",
+      "times": [
+        124.063,
+        125.903,
+        127.109
+      ],
+      "average": 125.692,
+      "min": 124.063,
+      "max": 127.109
+    },
+    {
+      "testName": "String Processing",
+      "times": [
+        196.439,
+        195.425,
+        196.862
+      ],
+      "average": 196.242,
+      "min": 195.425,
+      "max": 196.862
+    },
+    {
+      "testName": "Function Calls",
+      "times": [
+        77.917,
+        78.932,
+        78.537
+      ],
+      "average": 78.462,
+      "min": 77.917,
+      "max": 78.932
+    },
+    {
+      "testName": "Sorting Algorithms",
+      "times": [
+        309.496,
+        312.224,
+        318.444
+      ],
+      "average": 313.388,
+      "min": 309.496,
+      "max": 318.444
+    },
+    {
+      "testName": "Search Algorithms",
+      "times": [
+        169.955,
+        170.684,
+        167.086
+      ],
+      "average": 169.242,
+      "min": 167.086,
+      "max": 170.684
+    },
+    {
+      "testName": "Recursive Algorithms",
+      "times": [
+        204.308,
+        207.37,
+        202.249
+      ],
+      "average": 204.642,
+      "min": 202.249,
+      "max": 207.37
+    }
+  ]
+}

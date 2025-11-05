@@ -1,0 +1,13 @@
+ {
+  "name": "javascript-performance-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive JavaScript performance benchmarks",
+  "main": "benchmark-runner.js",
+  "scripts": {
+    "test": "node benchmark-runner.js",
+    "benchmark": "node benchmark-runner.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
+ 

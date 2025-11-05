@@ -1,0 +1,16 @@
+{
+  "name": "typescript-performance-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive TypeScript performance benchmarks",
+  "main": "dist/benchmark-runner.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/benchmark-runner.js",
+    "benchmark": "npm run build && node dist/benchmark-runner.js",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.24",
+    "typescript": "^5.9.3"
+  }
+}
